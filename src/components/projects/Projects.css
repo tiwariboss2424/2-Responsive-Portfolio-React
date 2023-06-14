@@ -1,0 +1,88 @@
+.projects {
+  display: flex;
+  margin-top: 10rem;
+}
+
+.p-right {
+  position: relative;
+}
+.p-main-circle {
+  background: white;
+  border-radius: 100%;
+  width: 18rem;
+  height: 18rem;
+
+  position: relative;
+  box-shadow: var(--smboxShadow);
+}
+
+.p-sec-circle {
+  position: relative;
+  box-shadow: 2px 4px 2px grey;
+  border-radius: 100%;
+  width: 5.5rem;
+  height: 5.5rem;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  place-items: center;
+}
+.p-main-circle > * {
+  position: absolute;
+}
+.p-main-circle > :nth-child(1) {
+  left: 7rem;
+  top: -2rem;
+}
+.p-main-circle > :nth-child(2) {
+  left: 7rem;
+  bottom: -2rem;
+}
+.p-main-circle > :nth-child(3) {
+  left: -2rem;
+  top: 7rem;
+}
+.p-main-circle > :nth-child(4) {
+  right: -2rem;
+  top: 7rem;
+}
+.p-sec-circle > img {
+  transform: scale(0.7);
+}
+.p-main-circle > :nth-child(5) {
+  right: 30%;
+  left: 38%;
+  top: 36%;
+  bottom: 39%;
+}
+.e-backCircle {
+  position: relative;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 100%;
+  z-index: -2;
+}
+.blueCircle {
+  background: blue;
+  right: -9rem;
+  top: -20rem;
+}
+.yellowCircle {
+  background: yellow;
+  right: -9rem;
+  top: -23rem;
+}
+
+@media screen and (max-width: 900px) {
+  .projects {
+    margin-top: 20rem;
+    display: block;
+  }
+  .awesome {
+    left: 0.3rem;
+  }
+  .p-right {
+    margin-top: 3rem;
+    transform: scale(0.8);
+  }
+}

@@ -1,0 +1,162 @@
+.intro {
+  display: flex;
+  height: 77vh;
+  margin-top: 6rem;
+}
+.i-left {
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  gap: 2rem;
+}
+.i-name {
+  display: flex;
+  flex-direction: column;
+}
+.i-name :nth-child(1) {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 3rem;
+}
+.i-name :nth-child(2) {
+  color: var(--orange);
+  font-weight: bold;
+  font-size: 3rem;
+}
+i-name:nth-child(3) {
+  font-weight: 100;
+  color: var(--grey);
+  font-size: 14px;
+  margin-top: 15px;
+}
+.i-button {
+  width: 6rem;
+  height: 2rem;
+}
+.i-socialmedia {
+  display: flex;
+  gap: 2rem;
+}
+.i-socialmedia * {
+  transform: scale(0.7);
+}
+.i-socialmedia img:hover {
+  cursor: pointer;
+  transform: scale(0.6);
+}
+
+.i-right {
+  flex: 1;
+  position: relative;
+}
+.i-right * {
+  position: absolute;
+  z-index: 1;
+}
+/*Blue Image*/
+.i-right :nth-child(1) {
+  transform: scale(0.69);
+  left: -15%;
+  top: -9%;
+}
+/* Yellow Image */
+.i-right :nth-child(2) {
+  top: -4.6%;
+  transform: scale(0.67);
+  left: -3rem;
+}
+.i-right :nth-child(3) {
+  top: 15%;
+  transform: scale(1.4);
+  left: 28%;
+}
+.i-right:nth-child(4) {
+  position: absolute;
+  top: 12%;
+  left: 13%;
+  transform: scale(0.6);
+}
+.blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 20%;
+  background: pink;
+  filter: blur(72px);
+  z-index: -9;
+  top: 23%;
+  left: 68%;
+}
+.blur1 {
+  position: absolute;
+  top: 70%;
+  width: 22rem;
+  height: 18rem;
+  right: 25%;
+  background: lightseagreen;
+  filter: blur(99px);
+}
+
+@media screen and (max-width: 900px) {
+  .intro {
+    display: block;
+  }
+  .blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 20%;
+    background: pink;
+    filter: blur(112px);
+    z-index: -9;
+    top: 3rem;
+    left: 0%;
+  }
+  .i-right {
+    margin-top: 10rem;
+  }
+  .i-right :nth-child(1) {
+    transform: scale(0.69);
+    left: -11rem;
+    top: -5rem;
+  }
+  /* Yellow Image */
+  .i-right :nth-child(2) {
+    top: -6.6rem;
+    transform: scale(0.57);
+    left: -7rem;
+  }
+  .i-right :nth-child(3) {
+    top: 15%;
+    transform: scale(1.05);
+    left: 16%;
+  }
+  .blur1 {
+    position: absolute;
+    top: 40rem;
+    width: 22rem;
+    height: 18rem;
+    right: 25%;
+    background: lightseagreen;
+    filter: blur(99px);
+  }
+}
+@media screen and (max-width: 900px){
+  .i-right :nth-child(3) {
+    top: 15%;
+    transform: scale(0.8);
+    left: 16%;
+  }
+  .i-right :nth-child(1) {
+    transform: scale(0.59);
+    left: -8rem;
+    top: -5rem;
+  }
+  .i-right :nth-child(2) {
+    top: -7.1rem;
+    transform: scale(0.47);
+    left: -7rem;
+  }
+
+}
