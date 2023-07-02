@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 // import Intro from "../intro/Intro";
 
 const bg = document.body;
-const logo = document.querySelector(".n-toggle");
+// const logo = document.querySelector(".n-toggle");
 // const navshow = document.getElementById("navshow");
 const Navbar = () => {
   const [show, setShow] = useState(true);
@@ -26,11 +26,11 @@ const Navbar = () => {
     if (toggleBg === "dark") {
       setToggleBg("light");
       bg.style.background = "black";
-      logo.style.color = "white";
+      // logo.style.color = "white";
     } else {
       setToggleBg("dark");
       bg.style.background = "white";
-      logo.style.color = "black";
+      // logo.style.color = "black";
     }
   };
   return (
@@ -45,7 +45,7 @@ const Navbar = () => {
               outline: "none",
               border: "none",
               background: "black",
-              color: "cyan"
+              color: "cyan",
             }}
           >
             {toggleBg}
