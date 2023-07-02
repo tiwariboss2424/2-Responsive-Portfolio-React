@@ -20,7 +20,7 @@ export default function Projects() {
             have created in my second year of Btech within 2 days of time using
             free api. U can see this if youi want
           </spane>
-          <a href="http://yfv5nl-3000.csb.app/">
+          <a href="http://yfv5nl-3000.csb.app/" target="_blank">
             <button className="button s-button">Live-Website</button>
           </a>
           <div
