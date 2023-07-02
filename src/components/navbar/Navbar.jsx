@@ -26,11 +26,11 @@ const Navbar = () => {
     if (toggleBg === "dark") {
       setToggleBg("light");
       bg.style.background = "black";
-      logo.style.color = "white";
+    
     } else {
       setToggleBg("dark");
       bg.style.background = "white";
-      logo.style.color = "black";
+    
     }
   };
   return (
