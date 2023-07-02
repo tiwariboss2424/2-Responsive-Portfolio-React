@@ -18,15 +18,10 @@ export default function Projects() {
           <spane>
             Imdb Clone using react-js is among my one of the projects that i
             have created in my second year of Btech within 2 days of time using
-            free ap;i. U can see this if youi want
+            free api. U can see this if youi want
           </spane>
           <a href="http://yfv5nl-3000.csb.app/">
-          <button
-            className="button s-button"
-            
-          >
-            Live-Website
-          </button>
+            <button className="button s-button">Live-Website</button>
           </a>
           <div
             className="blur s-blur1"
