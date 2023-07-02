@@ -16,11 +16,16 @@ export default function Projects() {
           <span>My Projects</span>
           <span>During-Btech</span>
           <spane>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            officia cum repudiandae dicta architecto culpa fuga ea magnam id
-            quo!
+              I Am giving the link of one of my projects in react.js that is IMDB clone .
+              I have created this project in the 2nd year of my btech in 2 days.
+              you can see it if you want 
           </spane>
+          <a href="http://yfv5nl-3000.csb.app/">
+          
           <button className="button s-button">Live-Website</button>
+        
+          </a>
+        
           <div
             className="blur s-blur1"
             style={{ background: "#AVF1FF94" }}
