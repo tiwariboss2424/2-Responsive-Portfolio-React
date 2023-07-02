@@ -16,11 +16,18 @@ export default function Projects() {
           <span>My Projects</span>
           <span>During-Btech</span>
           <spane>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            officia cum repudiandae dicta architecto culpa fuga ea magnam id
-            quo!
+            Imdb Clone using react-js is among my one of the projects that i
+            have created in my second year of Btech within 2 days of time using
+            free ap;i. U can see this if youi want
           </spane>
-          <button className="button s-button">Live-Website</button>
+          <a href="http://yfv5nl-3000.csb.app/">
+          <button
+            className="button s-button"
+            
+          >
+            Live-Website
+          </button>
+          </a>
           <div
             className="blur s-blur1"
             style={{ background: "#AVF1FF94" }}
@@ -50,7 +57,6 @@ export default function Projects() {
           <div className="e-backCircle yellowCircle"></div>
         </div>
       </div>
-      
     </>
   );
 }
