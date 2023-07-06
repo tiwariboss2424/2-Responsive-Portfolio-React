@@ -16,16 +16,14 @@ export default function Projects() {
           <span>My Projects</span>
           <span>During-Btech</span>
           <spane>
-              I Am giving the link of one of my projects in react.js that is IMDB clone .
-              I have created this project in the 2nd year of my btech in 2 days.
-              you can see it if you want 
+            I Am giving the link of one of my projects in react.js that is IMDB
+            clone . I have created this project in the 2nd year of my btech in 2
+            days. you can see it if you want
           </spane>
-          <a href="http://yfv5nl-3000.csb.app/">
-          
-          <button className="button s-button">Live-Website</button>
-        
+          <a href="http://yfv5nl-3000.csb.app/" target="_blank">
+            <button className="button s-button">Live-Website</button>
           </a>
-        
+
           <div
             className="blur s-blur1"
             style={{ background: "#AVF1FF94" }}
@@ -55,7 +53,6 @@ export default function Projects() {
           <div className="e-backCircle yellowCircle"></div>
         </div>
       </div>
-      
     </>
   );
 }

@@ -20,8 +20,18 @@ export default function Intro() {
             <span>Hy! This is </span>
             <span>Niranjan Tiwari</span>
             <span className="n-toggle">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-              beatae.
+              I am the first year student of gaya college of engineering gaya{" "}
+              <br />
+              <span style={{ color: "magenta", fontSize: "1rem" }}>
+                Computer Science branch{" "}
+              </span>{" "}
+              and a
+              <span style={{ color: "magenta", fontSize: "1rem" }}>
+                {" "}
+                React develper{" "}
+              </span>
+              . I have started developent from the first year of my college and
+              now after giving my time to it , I am in love with it.{" "}
             </span>
           </div>
           <button className="buttons i-button">Hire Me </button>
@@ -45,7 +55,7 @@ export default function Intro() {
           <img
             src={GlassEmogy}
             style={{
-              transform: "scale(0.6)"
+              transform: "scale(0.6)",
             }}
             alt="Loading icon "
           />
