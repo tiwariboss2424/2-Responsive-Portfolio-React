@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import musicapp from "../../img/musicapp.png";
 import Hoc from "../../img/hoc.png";
 import sidebar from "../../img/sidebar.png";
-import ecommerce from "../../img/ecommerce.png";
+// import Movie from "../../img/amazon.png ";
 // import Testimonial from "../testimonial/Testimonial";
 const Portfolio = () => {
   return (
@@ -26,7 +26,7 @@ const Portfolio = () => {
             <img src={sidebar} alt="loading" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={ecommerce} alt="loading" />
+            {/* <img src={Movie} alt="loading" /> */}
           </SwiperSlide>
           <SwiperSlide>
             <img src={Hoc} alt="loading" />
