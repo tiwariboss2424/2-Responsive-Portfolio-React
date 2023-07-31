@@ -7,6 +7,7 @@ import Instagram from "../../img/instagram.png";
 import Yimg from "../../img/Vector2.png";
 import Bimg from "../../img/Vector1.png";
 import boy from "../../img/boy.png";
+//import tiwari from "../../../tiwari1.png";
 import Thumsup from "../../img/thumbup.png";
 import Crown from "../../img/crown.png";
 import GlassEmogy from "../../img/glassesimoji.png";
